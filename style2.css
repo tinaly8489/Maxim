@@ -3,6 +3,7 @@ body {
      
     font-family: Arial, sans-serif;
     font-weight: 90px;
+    }
 .my-collection {
     display: flex;
     align-items: center;
@@ -13,7 +14,7 @@ body {
     text-align: center;
     margin: 40px 0;
     text-shadow: 3px 3px 0 #0F4C81;
-}
+
 }
 h1 {
     font-size: 51px;
