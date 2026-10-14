@@ -1,0 +1,292 @@
+
+h1 {
+    font-size: 51px;
+    text-shadow: 3px 3px 0 white;
+    color: black;
+}
+
+
+img {
+    width: 30%
+}
+.prouduct-info:hover {
+    box-shadow: 0 0 50px 20px #61F9F7;
+    position: relative;
+}
+body {
+    background: linear-gradient(90deg, #0F4C81 0%, #3B82F6 100%); 
+     
+    font-family: Arial, sans-serif;
+    font-weight: 90px;
+
+}
+#searchResults {
+    position: absolute;
+    background: white;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    z-index: 100;
+}
+
+.search-item {
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+.search-item:hover {
+    background-color: #eeeeee;
+}
+
+.nav-links .active {
+    background: #111;
+    color: white;
+}
+
+
+
+.product {
+    margin: 100px 0;
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+.prouduct-info img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.div img {
+    height: 270px;
+
+  transition: 0.3s;
+    
+
+    background: #f4f4f4;
+
+    border-radius: 18px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: 0.4s;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+      }
+.logo img{
+    width: 130px;
+    height: 80px;
+}
+
+.menu {
+    background-color: darkblue;
+    padding: 16px;
+    border-bottom : 2px solid #FFFFF9;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100x;
+     }
+
+.menu-icons button {
+    border: none;
+    background: #f5f5f5;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.menu-icons button:hover {
+    transform: scale(1.1);
+    background: #e8e8e8;
+}
+
+#searchBox {
+    display: none;
+}
+
+
+
+ nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    
+    
+}
+
+.my-collection {
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #E5F0FE;
+    
+    
+   
+}
+h1 {
+    color: black;
+}
+
+.prouduct-info {
+     width: 260px;
+    padding: 10px;
+
+    
+    background-color: white;
+
+    border: 1px solid #eee;
+    border-radius: 24px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+
+    font-family: Arial, sans-serif;
+
+    transition: 0.3s;
+}
+
+
+       
+
+   
+   
+    
+
+
+
+    
+
+
+nav a:hover {
+    background-color: lightblue;
+    color:navy;
+}
+    .best-seller {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .prouduct-info:hover {
+        background-color: lightblue;
+    color:navy;
+    transform: scale(1.06);
+     box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    }
+    nav a:active {
+        color: darkgreen;
+        background-color: darkseagreen;
+    }
+
+     a:link {
+  color: white;
+  text-decoration: none;
+  background-color: darkblue
+     }
+
+
+         
+      .prouduct-info:active {
+        color: black;
+        background-color: darkseagreen;
+      }
+
+       .prouduct-info:link {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+   justify-content: center; 
+ 
+   }
+    
+
+
+
+
+
+
+
+
+
+
+
+.love:hover {
+    transform: scale(1.15);
+
+    background: #ffeded;
+    color: red;
+}
+.love:active {
+    transform: scale(1.15);
+
+    background: #ffeded;
+    color: red;
+}
+
+
+/* Ms. Tina fixed the problem here */
+
+
+.prouduct-info {
+    position: relative;
+}
+
+.prouduct-info::before {
+    content: "NEW";
+
+    position: absolute;
+    top: 12px;
+    left: 12px;
+
+    background: #111;
+    color: white;
+
+    padding: 6px 11px;
+    border-radius: 20px;
+
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.prouduct-info::after {
+    content: "♡";
+
+    position: absolute;
+    top: 12px;
+    right: 12px;
+
+    width: 38px;
+    height: 38px;
+
+    background: white;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 21px;
+}
+
+/* fixed picture đầu tiên, còn lại Maxim tự chỉnh lại  */
